@@ -1,8 +1,8 @@
-docs.lighttable.com
+lighttable.com
 ===================
 
-Light Table's official documentation
+Light Table's official website
 
-You can view it online at  http://docs.lighttable.com
+You can view it online at  http://www.lighttable.com
 
 
