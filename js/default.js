@@ -4,8 +4,9 @@ $(document).ready(function() {
     $("#download").toggle();
   });
 
-  $(".download").click(function() {
+  $(".download").click(function(e) {
     $("#download").toggle();
+    e.preventDefault();
   });
 
 });
