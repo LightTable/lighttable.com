@@ -1,0 +1,138 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  list-style: none;
+  text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'GRN';
+    src: url('/fonts/gothamrnd-medium-webfont.eot');
+    src: url('/fonts/gothamrnd-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/gothamrnd-medium-webfont.woff') format('woff'),
+         url('/fonts/gothamrnd-medium-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GRL';
+    src: url('/fonts/gothamrnd-light-webfont.eot');
+    src: url('/fonts/gothamrnd-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/gothamrnd-light-webfont.woff') format('woff'),
+         url('/fonts/gothamrnd-light-webfont.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GRB';
+    src: url('/fonts/gothamrnd-bold-webfont.eot');
+    src: url('/fonts/gothamrnd-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/gothamrnd-bold-webfont.woff') format('woff'),
+         url('/fonts/gothamrnd-bold-webfont.ttf') format('truetype');
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+
+html, body { min-height:100%;}
+body { background: url('/images/background.png'); background-color: rgba(255, 255, 255, 1.0); background:#f7f7f7; background-attachment: fixed;  }
+.uberwrapper { width:100%; min-height:100%; margin: 0 auto;}
+
+#sidebar { width: 250px; position: fixed; top: 0px; padding: 50px 0px 0px 50px;}
+.logo { display:inline-block; vertical-align:middle; margin-right: 5px;}
+#sidebar span { vertical-align:middle; }
+#sidebar h1 a { vertical-align:middle; font-family: "GRL"; font-size: 36px; color: #0082c4; padding: 12px 0px; text-shadow: 1px 1px 5px rgba(255, 255, 255, 1); text-transform: ;}
+.sidelinks { padding-top: 15px;}
+.sidelinks a { font-family: "Open Sans"; font-size: 11pt; color: #1b4b68; line-height: 20px;}
+.sidelinks a:hover { color: #0082c4; text-shadow: 1px 1px 3px rgba(255, 255, 255, .8);}
+
+#blogposts { min-height:100%; width: auto; max-width:700px; margin-left: 230px; padding: 0px 50px; padding-bottom:100px; background-color: #f7f7f7; box-shadow: 0px 0px 0px #666688; }
+.date { font-family: "GRL"; font-size: 11pt; color: #778c98; padding-bottom: 15px; text-transform: none;}
+.post { font-family: "Open Sans"; font-size: 11pt; color: #1b4b68; }
+.post p { line-height: 18px; margin-bottom:12px; }
+.post img { max-width: 600px; border-radius:3px; margin:5px 0; width:100%; }
+.post object, .post iframe { max-width: 600px; border-radius:3px; margin:15px 0; margin-top:10px; width:100%; }
+.post h3 { font-family: "GRL"; font-size: 24px; color: #1b4b68; display: inline-block; margin-top:20px; margin-bottom:12px; }
+.post h4 { font-family: "GRL"; font-size: 18px; color: #1b4b68; display: inline-block; }
+.post a { color: #0082c4; text-decoration:none; }
+.post a:hover { color: #0082c4; text-decoration:underline; }
+.post .title { font-family: "GRL"; font-size: 32px; color: #1b4b68; display: inline-block; margin: 55px 0px 5px 0px;}
+.post a.title:hover { color: #0082c4; text-shadow: 1px 1px 3px rgba(70, 70, 90, .1); text-decoration:none; }
+.post ul { list-style:disc; margin-bottom:15px; }
+.post li { list-style: disc; margin-left:30px; margin-bottom:3px;}
+
+
+#related { font-family: "Open Sans"; font-size:11pt; margin-top:30px; }
+#related h3 { font-family: "GRL"; font-size: 24px; color: #1b4b68; display: inline-block; margin-top:20px; margin-bottom:12px; }
+#related a { color: #0082c4; text-decoration:none; }
+#related a:hover { color: #0082c4; text-decoration:underline; }
+#related .posts li { margin-bottom:3px; }
+
+.archive { font-family: "Open Sans"; font-size:11pt; margin-top:30px; }
+.archive h2 { font-family: "GRL"; font-size: 32px; color: #1b4b68; display: inline-block; margin-top:25px; margin-bottom:30px; }
+.archive a { color: #0082c4; text-decoration:none; }
+.archive a:hover { color: #0082c4; text-decoration:underline; }
+.archive li { margin-bottom:10px; }
+.archive span { float:right; color: #1b4b68;}
+
+
+@media only screen
+and (max-width : 600px) {
+  #sidebar { width:100%; position:static; padding:0 15px; margin-bottom:40px; margin-top:20px; }
+.logo { height: 30px; }
+#sidebar h1 { display:inline-block; }
+#sidebar h1 a { font-size:14pt; }
+.sidelinks { display:inline-block; vertical-align:middle; position:absolute; right:15px; top:27px; }
+  .sidelinks { padding:0; }
+.sidelinks li { display:inline-block; margin-left:8px; }
+.sidelinks li:nth-child(2) { display:none; }
+
+.post { margin-bottom:40px; }
+.post .title { font-size:18pt; margin-top:0; }
+.post h3 { font-size:13pt; }
+
+  #blogposts { margin:0; width:100%; padding:0 15px; margin-top: 0; }
+  #blogposts img, #blogposts object, #blogposts iframe { max-width:100%; }
+
+.archive h2 { margin-top:0; font-size:14pt; margin-bottom:20px; }
+.archive span { display:block; float:none; margin-top:2px; color:#999;}
+}
