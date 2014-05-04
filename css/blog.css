@@ -92,13 +92,14 @@ body { background: url('/images/background.png'); background-color: rgba(255, 25
 .post img { max-width: 600px; border-radius:3px; margin:5px 0; width:100%; }
 .post object, .post iframe { max-width: 600px; border-radius:3px; margin:15px 0; margin-top:10px; width:100%; }
 .post h3 { font-family: "GRL"; font-size: 24px; color: #1b4b68; display: inline-block; margin-top:20px; margin-bottom:12px; }
-.post h4 { font-family: "GRL"; font-size: 18px; color: #1b4b68; display: inline-block; }
+.post h4, .post h5 { font-family: "GRL"; font-size: 18px; color: #1b4b68; display: inline-block; }
 .post a { color: #0082c4; text-decoration:none; }
 .post a:hover { color: #0082c4; text-decoration:underline; }
 .post .title { font-family: "GRL"; font-size: 32px; color: #1b4b68; display: inline-block; margin: 55px 0px 5px 0px;}
 .post a.title:hover { color: #0082c4; text-shadow: 1px 1px 3px rgba(70, 70, 90, .1); text-decoration:none; }
 .post ul { list-style:disc; margin-bottom:15px; }
 .post li { list-style: disc; margin-left:30px; margin-bottom:3px;}
+.post pre { background:#fff; background:none; margin-bottom:12px; padding: 10px 10px; border-radius:3px; border:0px solid #ddd; font-family:"Inconsolata", "Consolas", monospace; }
 
 
 #related { font-family: "Open Sans"; font-size:11pt; margin-top:30px; }
