@@ -5,7 +5,7 @@ layout: default
 <div id="blogposts">
     <div class="post" id="{{page.link}}">
         <h2><a href="{{page.url}}" class="title">{{page.title}}</a></h2>
-        <p class="date">{{page.date | date_to_string }}&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;{{page.author}}</p>
+        <p class="date">{{page.date | date_to_string }}&nbsp;-&nbsp;{{page.author}}</p>
         {{ content }}
     </div>
 
