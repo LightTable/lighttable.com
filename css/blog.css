@@ -101,6 +101,8 @@ body { background: url('/images/background.png'); background-color: rgba(255, 25
 .post ul { list-style:disc; margin-bottom:15px; }
 .post li { list-style: disc; margin-left:30px; margin-bottom:3px;}
 .post pre { background:#fff; overflow:auto; background:none; margin-bottom:30px; padding: 10px 10px; border-radius:3px; border:0px solid #ddd; font-family:"Inconsolata", "Consolas", monospace; }
+.post em { font-style:italic; }
+.post strong { font-weight: bold; }
 
 
 #related { font-family: "Open Sans"; font-size:11pt; margin-top:30px; }
