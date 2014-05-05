@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Toward a better programming"
+author: Chris Granger
 tags: []
 ---
 
