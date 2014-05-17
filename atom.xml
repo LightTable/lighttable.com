@@ -4,7 +4,7 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>chris-granger.com</title>
+ <title>Light Table Blog</title>
  <link href="http://www.lighttable.com/atom.xml" rel="self"/>
   <link href="http://www.lighttable.com"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
