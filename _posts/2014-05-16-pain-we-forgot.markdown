@@ -31,7 +31,7 @@ LightTable clj/lunch_app/core.clj # server side, fire up compiler, connect to re
 LightTable cljs/lunch_app/core.cljs # client side, connect to web repl
 ```
 
-At this point you have already lost 99% of the population and we haven't even touched on css or templates yet. Worse, none of this was discoverable. I happen to already know how to setup a simple client-server web app so all these steps seem obvious to me. But Anon the intern needs to be able to open up Programming™ and click 'New Web Form'. Intellij does a reasonable job on this front - you can start a new web project, compile and open the result in a browser in a few button clicks. But in most environments you need a tutorial just to start a new project.
+At this point you have already lost 99% of the population and we haven't even touched on css or templates yet. Worse, none of this was discoverable. I happen to already know how to setup a simple client-server web app so all these steps seem obvious to me. But Anon the intern needs to be able to open up Programming&trade; and click 'New Web Form'. Intellij does a reasonable job on this front - you can start a new web project, compile and open the result in a browser in a few button clicks. But in most environments you need a tutorial just to start a new project.
 
 ### Finding help
 
