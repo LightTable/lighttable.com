@@ -44,26 +44,17 @@ table {
 
 @font-face {
     font-family: 'GRN';
-    src: url('/fonts/gothamrnd-medium-webfont.eot');
-    src: url('/fonts/gothamrnd-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/gothamrnd-medium-webfont.woff') format('woff'),
-         url('/fonts/gothamrnd-medium-webfont.ttf') format('truetype');
+    src: url('/fonts/Ubuntu-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'GRL';
-    src: url('/fonts/gothamrnd-light-webfont.eot');
-    src: url('/fonts/gothamrnd-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/gothamrnd-light-webfont.woff') format('woff'),
-         url('/fonts/gothamrnd-light-webfont.ttf') format('truetype');
+    src: url('/fonts/Ubuntu-Light.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'GRB';
-    src: url('/fonts/gothamrnd-bold-webfont.eot');
-    src: url('/fonts/gothamrnd-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/gothamrnd-bold-webfont.woff') format('woff'),
-         url('/fonts/gothamrnd-bold-webfont.ttf') format('truetype');
+    src: url('/fonts/Ubuntu-Bold.ttf') format('truetype');
 }
 
 *, *:before, *:after {
