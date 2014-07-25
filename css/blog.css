@@ -94,7 +94,7 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ddd; margin:
 .post .title { font-family: "GRL"; font-size: 32px; color: #1b4b68; display: inline-block; margin: 55px 0px 5px 0px;}
 .post a.title:hover { color: #0082c4; text-shadow: 1px 1px 3px rgba(70, 70, 90, .1); text-decoration:none; }
 .post ul { list-style:disc; margin-bottom:30px; }
-.post li { list-style: disc; margin-left:30px; margin-bottom:3px;}
+.post li { list-style: disc; margin-left:30px; margin-bottom:10px;}
 .post pre { background:#fff; overflow:auto; background:none; margin-bottom:30px; padding: 10px 10px; border-radius:3px; border:0px solid #ddd; font-family:"Inconsolata", "Consolas", monospace; }
 .post em { font-style:italic; }
 .post strong { font-weight: bold; }
