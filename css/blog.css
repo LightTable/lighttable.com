@@ -113,6 +113,10 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ddd; margin:
 .archive li { margin-bottom:10px; }
 .archive span { float:right; color: #1b4b68;}
 
+#backed { list-style:none; margin-top:10px; }
+#backed li { list-style:none; display:inline-block; margin-left:0; margin-right: 20px;}
+
+.hiring h4 { margin-top:20px; }
 
 @media only screen
 and (max-width : 600px) {
