@@ -96,8 +96,8 @@ span.shadow { display: inline-block; width: 332px; height: 94px; margin-top:-45p
 p.banner { font-family: 'GRL'; font-size: 18px; color: #0082c4; display: block; margin-bottom:50px; text-transform: lowercase;}
 .screens { width:100%; }
 a.getitnow { display: inline-block; width: 232px; height: 47px; position:absolute; left:51px; top:30px; background: url('/images/getitnow.png')}
-a.getitnow:hover { background-position: 0px -94px;}
-a.getitnow:active { background-position: 0px -188px;}
+a.getitnow:hover { background-position: 0px -47px;}
+a.getitnow:active { background-position: 0px -94px;}
 ul.bullets { display:none; }
 .bullets td { width: 50%;}
 .bullets img { display: inline; float: left; margin: 32px 15px 32px 30px;}
