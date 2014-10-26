@@ -16,5 +16,12 @@ $(document).ready(function() {
       image.src = images[i];
     }
   };
+ 
+  preloader([
+    "/images/linux32.png",
+    "/images/linux64.png",
+    "/images/osx.png",
+    "/images/windows.png"
+  ]);
 
 });
