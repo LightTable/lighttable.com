@@ -5,7 +5,7 @@ author: Rob Attorri
 tags: []
 ---
 
-The Light Table 0.7.0 just went out, and in addition to being a fairly major update, we’ve got some fairly major news to accompany it. Some people expressed concern after Chris’s blog post about Eve that Light Table was being abandoned or forgotten, but hopefully some of the announcements today can assuage those concerns. The recent groundswell from the Light Table community has been impressive and we want to make sure we keep facilitating that growth, so with that in mind, there have been some big changes.
+The Light Table 0.7.0 update just went out, and in addition to being a fairly major update, we’ve got some fairly major news to accompany it. Some people expressed concern after Chris’s blog post about Eve that Light Table was being abandoned or forgotten, but hopefully some of the announcements today can assuage those concerns. The recent groundswell from the Light Table community has been impressive and we want to make sure we keep facilitating that growth, so with that in mind, there have been some big changes.
 
 ### Meet the new Light Table committers
 
