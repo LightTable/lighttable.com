@@ -1,0 +1,47 @@
+---
+layout: post
+title: "Big news in Light Table 0.7.0"
+author: Rob Attorri
+tags: []
+---
+
+The Light Table 0.7.0 just went out, and in addition to being a fairly major update, we’ve got some fairly major news to accompany it. Some people expressed concern after Chris’s blog post about Eve that Light Table was being abandoned or forgotten, but hopefully some of the announcements today can assuage those concerns. The recent groundswell from the Light Table community has been impressive and we want to make sure we keep facilitating that growth, so with that in mind, there have been some big changes.
+
+### Meet the new Light Table committers
+
+We have three new committers in addition to ourselves: [Josh Cole][jc], [Gabriel Horner][gh], and [Mike Innes][mi]. Between the three of them, they represent some of Light Table’s biggest contributors and we’re incredibly fortunate that they’ve stepped up to help maintain everything moving forward. Since they’ve joined in, a ton has been happening with the project - everything from clearing out more than 300 issues on Github to working on a plan for the future. While Chris is still actively involved in both helping to figure out what to do and getting some of it done, these folks - and hopefully more as time goes on - represent the shift towards a community-owned Light Table.
+
+### More control for the community
+
+To truly give the community control, we’ve put all the Light Table websites, docs, and plugin metadata onto [Github][github] and in doing so have removed the plugin servers and such that we managed. Everything is now hosted right off of Github so any changes the organization wants to make are live as soon as the pull request goes through. This means that Light Table’s progress is in no way hindered by us and it can move at whatever pace it needs to.
+
+### Light Table is now under the MIT license
+
+In the interest of openness, we’ve also moved all the repos from the GPLv3 to the more permissive MIT license. This was driven by two things: the GPL was an impasse for a number of organizations who were interested in using Light Table as their canonical editor, so we’re pleased to be able to bring them into the fold; and we’ve found that the Contributor’s Agreement that the GPL necessitated was causing friction with our users. Contributing to Light Table should be as easy and open as is possible, so to remove all of the friction from the process, we’ve moved to a license that allows you to do pretty much anything and abolished the CA entirely. The only thing we’ve added is a small blurb into the [CONTRIBUTING.md][contrib] that says by contributing code to Light Table, you’re agreeing to release it under the MIT License as well. Our goal from the very beginning was to have Light Table and its direction in the hands of the those using it, and we think this is a great means to that end.
+
+### Staying involved
+
+We’re not only grateful but proud of all the work the community has done recently for Light Table, but we ourselves are staying involved. We recently moved into a new office to accommodate the new hires we want to make, and once the dust settles we’re going to start doing Light Table hack nights. We haven’t decided on the schedule, but we’ll have food, drink, and Light Table swag, so if you didn’t get that sweet t-shirt you wanted from our Kickstarter, you’ll be able to complete your wardrobe. It’ll be a good opportunity to keep our ears to the ground for what folks want, which features need attention, and for anybody who has questions for Chris and/or Jamie about the code to come pick their brains. We figure we’ll do several of these hack nights each month, so once we come up with a good schedule and actually purchase a table that can accommodate such an event, there will be a blog post and a thread on the discussion group to let you know the when and where.
+
+Probably the most exciting announcement for us is one that I can’t go into too much detail at the moment, but Jamie’s finally getting a work buddy early next year with our new hire. This person caught our attention some time ago and has been excited about the work we’re doing with both Light Table and Eve. Out of respect to their current employment situation I can’t name any names, but they will be dedicating a day a week or so to helping maintain and continue building on Light Table.
+
+### Big changes in 0.7.0 itself
+
+This was a big clean up release with lots of little fixes, but there are a number of big changes that warranted it being a more significant version increase:
+
+* We’ve moved to the latest node-webkit and are now able to track nw’s progress directly since the menu changes made it upstream.
+* All plugin metadata is now hosted on github, this means that asking to remove/rename/change urls etc for plugins is just a matter of sending a PR.
+* Instead of having a disconnect between settings and plugins (which are really the same), every user now has a user plugin. This gives you a place to quickly create commands, tabs, behaviors, or whathaveyou without needing to jump through a bunch of hoops. This also means that your complete configuration with plugins and all can be zipped up and sent to someone.
+* Along with the user plugin, we’ve also changed the syntax of behavior and keymap files to make them much easier to both read and share. No more hunting for the right place to paste some behavior you’ve copied from someone else.
+
+There’s a whole lot more, so check out the full [change log][log] for the gory details.
+
+-Rob
+
+[mit]: https://github.com/LightTable/LightTable/blob/master/LICENSE.md
+[github]: https://github.com/LightTable
+[jc]: https://github.com/joshuafcole
+[mi]: https://github.com/one-more-minute
+[gh]: https://github.com/cldwalker
+[log]: https://github.com/LightTable/LightTable/blob/master/deploy/core/changelog.md
+[contrib]: https://github.com/LightTable/LightTable/blob/master/CONTRIBUTING.md
