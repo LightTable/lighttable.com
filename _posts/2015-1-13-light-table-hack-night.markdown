@@ -5,7 +5,7 @@ author: Rob Attorri
 tags: []
 ---
 
-Back in November we released v0.7.0 and [made some big announcements][bignews] in terms of new committers and turning Light Table and its documentation over to the community, but we left a couple things still up in the air that I’m happy to announce today - our new hire who will be spending part of his time working on Light Table, and also the inaugural Light Table Hack Night at our new office.
+Back in November we released v0.7.0 and [made some big announcements][bignews] about our new committers and turning Light Table and its documentation over to the community, but we left a couple things still up in the air that I’m happy to announce today - our new hire who will be spending part of his time working on Light Table, and also the inaugural Light Table Hack Night at our new office.
 
 ### Meet the new guy
 
