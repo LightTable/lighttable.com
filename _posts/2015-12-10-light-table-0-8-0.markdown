@@ -1,0 +1,48 @@
+
+---
+layout: post
+title: Light Table 0.8.0
+author: Gabriel Horner
+tags: []
+---
+
+We are excited to announce an 0.8.0 release of LightTable! Many thanks to our contributors including Chris and Mike for the move to Electron. We are also fortunate to have added [Kenny Evitt](https://github.com/kenny-evitt) and [Magnus Rundberget](https://github.com/rundis) to the core team, both of whom have been critical in helping users and getting this release out. This release finalizes an important transition from LightTable being a Kodowa managed project to a community managed one.
+
+### Changelog
+
+If we could give a theme for this release, we'd say it's transition and maintainability. We have made major changes: switching to Electron, upgrading CodeMirror, revamping how LightTable is built from source, and revamping how plugins are distributed (hint: it's all just data in this [repository](https://github.com/LightTable/plugin-metadata)). For maintainability, we have gotten off forked dependencies and added significant documentation. This release has the following major changes:
+
+* CHANGED: We have switched to Electron from NW.js
+* CHANGED: LT's releases and self-updating processes are completely in the open on Github
+* ADDED: LT can be built from source with provided scripts across supported platforms
+* ADDED: Most of LT's node libraries are installed as npm dependencies instead of as forked libraries
+* ADDED: Significant documentation. See more below
+* FIX: Major usability issues on >= OSX 10.10
+* CHANGED: 32-bit linux is no longer an official download. Building from source will still be supported
+* FIX: ClojureScript eval for modern versions of ClojureScript
+
+For more, [see the full changelog](https://github.com/LightTable/LightTable/releases/tag/0.8.0).
+
+Notes for plugin authors:
+
+* `lt.objs.app/window-number` numbering now starts on 1 instead of 0. We encourage you to use `lt.objs.app/first-window`
+* Use `lt.objs.platform/electron` set to true if your plugin needs to detect for behavior specific to LT versions before or after 0.8.0 (and electron).
+* The following fns have been removed: `lt.objs.thread/node-exe` and `lt.objs.app/extract!`
+
+### Documentation
+
+While LightTable has a [documentation site](http://docs.lighttable.com/), there has been a concern around LightTable not having enough documentation, both for those who
+want to understand its internals and for those who want to become power users. We have heard those concerns and done the following to address them:
+
+* For users, there is an [active and growing wiki](https://github.com/LightTable/LightTable/wiki). See the [FAQ](https://github.com/LightTable/LightTable/wiki/FAQ) for a number of common questions and answers.
+* There are user guides for users [coming from Emacs](https://github.com/LightTable/LightTable/wiki/For-Emacs-Users), [coming from Vim](https://github.com/LightTable/LightTable/wiki/For-Vim-Users), [interested in contributing for the first time](https://github.com/LightTable/LightTable/wiki/First-Contribution) and [better understanding configuration](https://github.com/LightTable/LightTable/blob/master/doc/behavior-and-keymap-configuration.md).
+* For plugin authors, we have [API docs](http://lighttable.github.io/LightTable/api/) which document the most common namespaces and functions. There is still more documentation to be done here but this is a good first step to supporting plugins with a public API.
+* For plugins authors and contributors, there is a [FAQ](https://github.com/LightTable/LightTable/wiki/Developer-FAQ), a [guide on understanding LT as an Electron app](https://github.com/LightTable/LightTable/blob/master/doc/electron-guide.md) and [documentation on running LightTable from source](https://github.com/LightTable/LightTable/blob/master/doc/developer-install.md).
+
+As we continue to improve documentation, we look forward to it enabling the community to better use, understand, and develop LightTable.
+
+### Next Steps
+
+LightTable is built on two amazing communities, [ClojureScript](https://github.com/clojure/clojurescript) and [CodeMirror](https://github.com/codemirror/CodeMirror). LightTable is primarily written in ClojureScript, which allows us to use immutable data instead of mutable objects, explicit state management, functional programming and much more. CodeMirror is the underlying editor which provides a 100+ language modes, dozens of addons and powerful vim and emacs keybindings. Unfortunately, LightTable has been running on old versions of both of these and it is time we fixed this. As part of [our 0.9.0 milestone](https://github.com/LightTable/LightTable/issues?q=is%3Aopen+is%3Aissue+milestone%3A0.9.0), we will be upgrading them to recent versions. We want to enable these communities to use their latest libraries and creations in LightTable. Aside from upgrades, we will continue to expand the community with more documentation, clean up LightTable internals and empower plugin authors with a powerful API and possibly even tools. Looking forward to what we can build together!
+
+-Gabriel
