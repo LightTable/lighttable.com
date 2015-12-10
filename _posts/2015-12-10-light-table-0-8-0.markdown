@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Light Table 0.8.0
