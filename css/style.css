@@ -141,10 +141,6 @@ ul.previews { display:none; }
 .links table { margin-top: 6px;}
 .leftlink { width: 125px;}
 .social li { overflow: hidden;}
-a.twitter { display: inline-block; height: 30px; width: 42px; background: url('/images/twitter.png')}
-a.facebook { display: inline-block; height: 30px; width: 42px; background: url('/images/facebook.png')}
-a.kickstarter { display: inline-block; height: 30px; width: 42px; background: url('/images/kickstarter.png')}
-a.email { display: inline-block; height: 30px; width: 45px; background: url('/images/email.png')}
 .social a:hover { background-position: 0px -30px;}
 .social a:active { background-position: 0px -60px;}
 .copy p { font-family: 'GRL'; font-size: 10px; color: #8c8c8c;}
