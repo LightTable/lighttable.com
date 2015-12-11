@@ -9,6 +9,6 @@ You can view it online at  http://www.lighttable.com
 
 To view changes locally:
 
-* `gem install jekyll albino`
-* `jekyll server -w`
+* `gem install bundler && bundle install`
+* `bundle exec jekyll server -w`
 * Open the browser to http://localhost:4000/
