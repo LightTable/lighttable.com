@@ -35,8 +35,7 @@ The User Guide has been ported over to Gitbook from docs.lighttable.com, merged 
 
 #### Update Core Dependencies
 
-This is another strong pain point. Our Clojurescript version is badly out of date. Our Electron version is out of date too. We adopted these technologies while they were young and there has since been breaking changes. They are fundamental to our project and require a deep knowledge of Light Table internals to update. They are also
-ic and deserve to be at the latest. The out of date dependencies have caused stagnation and are blocking significant possible improvements.
+This is another strong pain point. Our Clojurescript version is badly out of date. Our Electron version is out of date too. We adopted these technologies while they were young and there has since been breaking changes. They are fundamental to our project and require a deep knowledge of Light Table internals to update. They are also fantastic and deserve to be at the latest. The out of date dependencies have caused stagnation and are blocking significant possible improvements.
 
 Once Clojurescript is updated then the Electron update will be handled, finally followed by CodeMirror.
 
@@ -78,4 +77,4 @@ Searching and autocomplete come to mind as obvious targets. Both need to be impr
 
 Light Table is built on the idea of being a next generation editor. Many of our ideas were ported over to other editors and that is awesome! However, we need to keep innovating and want to hear from you. What would you like to see in an editor that you can't find elsewhere? What plugins don't yet exist?
 
-- Scott
+-Scott
