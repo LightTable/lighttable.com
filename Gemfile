@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
 gem 'jekyll'
-gem 'albino'
-gem 'redcarpet'
-gem 'pygments.rb'
+gem 'kramdown'
+gem 'rouge'
