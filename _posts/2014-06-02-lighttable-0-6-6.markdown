@@ -26,7 +26,7 @@ Happy to announce a new, and fairly big, release of [Light Table][lt] today! The
 
 We had tons of contributions, so thanks so much to all of you for the pull requests and refinements you have all put in! Here's the full changelist:
 
-###0.6.6
+### 0.6.6
 
 * FIX: combine try-read catches now that :default is available in cljs (cldwalker)
 * FIX: tweak show-docs command to open only one doc (snufkon)
