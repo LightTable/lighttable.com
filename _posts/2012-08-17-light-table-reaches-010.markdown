@@ -9,12 +9,12 @@ The [Light Table Playground][ltp] is getting a huge update today that we're real
 
 ![Intro screen](/images/lightable/intro.png)
 
-## A new launcher
+### A new launcher
 While the shell scripts got us this far, it's time to bid them farewell and move to a much more robust and useable jar-based launcher. The experience of getting the Playground is now to just [download the jar][ltp] and double click it. The server will remain up for as long as the launcher is open - to close, just close the launcher.
 
 ![New launcher](/images/lightable/launcher.png)
 
-## A new mode
+### A new mode
 Previously, the playground included only the Instarepl - a live code evaluation editor that showed you how values were flowing through - but in the latest release it gets a new mode: the "Table". The Table allows you to connect to existing projects (or create new ones) and then get to work modifying your code.
 
 ![The Table](/images/lightable/table.png)
@@ -31,13 +31,13 @@ Arguably the most important thing to ensure in Light Table is the ability to ver
 
 ![Scratch editor](/images/lightable/scratch.png)
 
-## A new double click experience for Clojure
+### A new double click experience for Clojure
 
 ![Connect to projects](/images/lightable/projects.png)
 
 With this release, Leiningen is built in, allowing you to connect to your projects and create new ones without having to do anything more than start the server. Clojure now has a true double click experience for getting started.
 
-## Real work and experiments
+### Real work and experiments
 
 With all of these changes we're now able to do real work in the Playground. As a matter of fact, we're actually working on Light Table in Light Table now (oh the meta-ness), but some of these ideas definitely change the development workflow quite a bit and are what we consider experiments. There's a lot to learn from how you guys use this new stuff and we'll be looking into the best way for us to collect your feedback. Keep in mind this is still very early software, so take care to protect yourself against potential issues.
 
@@ -48,7 +48,7 @@ A couple known problems:
 
 If you run into obvious bugs or issues, you can [log them on Github][ltgh].
 
-## Moving forward
+### Moving forward
 
 As YC is now starting to wrap up (we'll be talking about that soon), our plans are solidifying a bit and we should be making some big announcements in the next month or so. Stay tuned and hold onto your seats - it's going to be a wild ride.
 
