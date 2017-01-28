@@ -1,6 +1,10 @@
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
-markdown: redcarpet
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
 exclude:
 - README.md
 - CONTRIBUTING.md
