@@ -15,7 +15,7 @@ Let us be clear: If these tasks are not met then the project will continue to st
 
 #### Migrate docs to Gitbook
 
-Rather than spend effort maintaining our current [user docs](docs.lighttable.com), we are migrating all guides and tutorials to Gitbook.
+Rather than spend effort maintaining our current [user docs](http://docs.lighttable.com), we are migrating all guides and tutorials to Gitbook.
 
 #### Documentation
 
